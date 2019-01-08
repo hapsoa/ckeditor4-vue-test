@@ -8,6 +8,7 @@
     </textarea>
   </div>
 </template>
+
 <script lang="ts">
 import script from '@/components/ckeditor/ckeditor.ts';
 export default script;

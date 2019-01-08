@@ -7,6 +7,7 @@
 </template>
 
 <script lang="ts">
+
 import script from '@/App.ts';
 export default script;
 </script>
