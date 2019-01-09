@@ -12,7 +12,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "resolveJsonModule": true,
-    "types": ["webpack-env"],
+    "types": ["webpack-env", "node"],
     "paths": {
       "@/*": ["src/*"]
     },

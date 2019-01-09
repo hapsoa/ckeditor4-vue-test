@@ -19,6 +19,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@types/node": "^10.12.18",
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-pwa": "^3.3.0",
     "@vue/cli-plugin-typescript": "^3.3.0",

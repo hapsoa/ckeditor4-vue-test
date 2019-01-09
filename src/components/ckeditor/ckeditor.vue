@@ -6,6 +6,8 @@
               cols="80">
                 This is my textarea to be replaced with CKEditor.
     </textarea>
+    <!-- <button type="button"
+            @click="showContents">show contents</button> -->
   </div>
 </template>
 
