@@ -3,11 +3,12 @@
     <textarea name="editor1"
               id="editor1"
               rows="10"
-              cols="80">
-                This is my textarea to be replaced with CKEditor.
+              cols="80"
+              ref="ckeditor1"
+              v-model="content">
     </textarea>
-    <!-- <button type="button"
-            @click="showContents">show contents</button> -->
+    <button type="button"
+            @click="showContents">show contents</button>
   </div>
 </template>
 

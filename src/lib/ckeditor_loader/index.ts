@@ -12,6 +12,6 @@ declare global {
 
 // You can replace this with you own init script, e.g.:
 // - jQuery(document).ready()
-window.onload = () => {
-  window.CKEDITOR.replaceAll();
-};
+// window.onload = () => {
+//   window.CKEDITOR.replaceAll();
+// };

@@ -4,13 +4,19 @@
 import '@/lib/ckeditor_loader/index';
 
 export default {
-  // methods: {
-  //   showContents() {
-  //     // console.log()
-  //   },
-  // },
-  // mounted() {
-  //   // CKEDITOR.replace('editor1');
-  //   // console.log('asdf');
-  // },
+  data() {
+    return {
+      content: 'asdf',
+      editor: null,
+    };
+  },
+  methods: {
+    showContents(this: any) {
+      // tslint:disable-next-line:no-console
+      console.log(this.editor.getData());
+    },
+  },
+  mounted(this: any) {
+    this.editor = window.CKEDITOR.replace('editor1');
+  },
 };
