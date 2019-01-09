@@ -6,7 +6,6 @@ import '@/lib/ckeditor_loader/index';
 export default {
   data() {
     return {
-      content: 'asdf',
       editor: null,
     };
   },

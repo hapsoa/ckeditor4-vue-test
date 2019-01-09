@@ -1,6 +1,8 @@
 /* loader.js */
 
-window.CKEDITOR_BASEPATH = `/node_modules/ckeditor/`;
+// window.CKEDITOR_BASEPATH = `/node_modules/ckeditor/`;
+window.CKEDITOR_BASEPATH = `/ckeditor/`;
+
 
 // Load your custom config.js file for CKEditor.
 

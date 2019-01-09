@@ -3,9 +3,7 @@
     <textarea name="editor1"
               id="editor1"
               rows="10"
-              cols="80"
-              ref="ckeditor1"
-              v-model="content">
+              cols="80">
     </textarea>
     <button type="button"
             @click="showContents">show contents</button>
